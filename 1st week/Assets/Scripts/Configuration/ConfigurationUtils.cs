@@ -8,7 +8,7 @@ using UnityEngine;
 public static class ConfigurationUtils
 {
     #region Properties
-    
+
     /// <summary>
     /// Gets the paddle move units per second
     /// </summary>
@@ -16,6 +16,11 @@ public static class ConfigurationUtils
     public static float PaddleMoveUnitsPerSecond
     {
         get { return 10; }
+    }
+
+    public static float BallImpulseForce
+    {
+        get { return 200; }
     }
 
     #endregion
