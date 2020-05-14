@@ -163,8 +163,11 @@
 -define:ENABLE_NATIVE_ARRAY_CHECKS
 -define:UNITY_TEAM_LICENSE
 -define:ENABLE_VSTU
-'Assets/Scripts/ConfigurationUtils.cs'
+'Assets/Scripts/Configuration/ConfigurationUtils.cs'
+'Assets/Scripts/Gameplay/Ball.cs'
 'Assets/Scripts/Gameplay/Paddle.cs'
+'Assets/Scripts/Util/GameInitializer.cs'
+'Assets/Scripts/Util/ScreenUtils.cs'
 -r:'/Applications/Unity/Hub/Editor/2017.4.39f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.5/System.Runtime.Serialization.dll'
 -r:'/Applications/Unity/Hub/Editor/2017.4.39f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.5/System.Xml.Linq.dll'
 -r:'/Applications/Unity/Hub/Editor/2017.4.39f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.5/UnityScript.dll'
