@@ -15,13 +15,15 @@ public static class ConfigurationUtils
     /// <value>paddle move units per second</value>
     public static float PaddleMoveUnitsPerSecond
     {
-        get { return 10; }
+        get { return 10f; }
     }
 
     public static float BallImpulseForce
     {
-        get { return 200; }
+        get { return 200f; }
     }
+
+    public static ConfigurationData configurationData;
 
     #endregion
     
@@ -30,6 +32,6 @@ public static class ConfigurationUtils
     /// </summary>
     public static void Initialize()
     {
-
+        configurationData = new ConfigurationData();
     }
 }

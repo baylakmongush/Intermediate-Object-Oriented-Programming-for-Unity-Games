@@ -5,17 +5,18 @@ using UnityEngine;
 public class Ball : MonoBehaviour {
 
 	Rigidbody2D rb;
-	float angle = 20f;
+	float angle;
 	Vector2 direction;
 
 	// Use this for initialization
 	void Start () {
 		rb = GetComponent<Rigidbody2D>();
+		angle = 20f;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		direction = new Vector2(Mathf.Cos(angle), Mathf.Sin(angle));
+		direction = new Vector2(Mathf.Cos(Mathf.PI * angle / 180), Mathf.Sin(Mathf.PI * angle / 180));
 		rb.AddForce(direction * ConfigurationUtils.BallImpulseForce);
 	}
 

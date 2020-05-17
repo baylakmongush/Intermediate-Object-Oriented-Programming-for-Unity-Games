@@ -15,7 +15,7 @@ public class Paddle : MonoBehaviour {
 	void Start () {
 		rb = GetComponent<Rigidbody2D>();
 		boxColl = GetComponent<BoxCollider2D>();
-		halfWidth = boxColl.size.x / 2;
+		halfWidth = boxColl.size.x / 4;
 		Debug.Log(halfWidth);
 	}
 	
@@ -46,18 +46,22 @@ public class Paddle : MonoBehaviour {
 	{
 		if (coll.gameObject.CompareTag("Ball"))
 		{
+			bool ballTop = coll.gameObject.GetComponent<Ball>().transform.position.y > transform.position.y - 0.05f;
 			// calculate new ball direction
-			float ballOffsetFromPaddleCenter = transform.position.x -
-				coll.transform.position.x;
-			float normalizedBallOffset = ballOffsetFromPaddleCenter /
-				halfWidth;
-			float angleOffset = normalizedBallOffset * BounceAngleHalfRange;
-			float angle = Mathf.PI / 2 + angleOffset;
-			Vector2 direction = new Vector2(Mathf.Cos(angle), Mathf.Sin(angle));
+			if (ballTop)
+			{
+				float ballOffsetFromPaddleCenter = transform.position.x -
+					coll.transform.position.x;
+				float normalizedBallOffset = ballOffsetFromPaddleCenter /
+					halfWidth;
+				float angleOffset = normalizedBallOffset * BounceAngleHalfRange;
+				float angle = Mathf.PI / 2 + angleOffset;
+				Vector2 direction = new Vector2(Mathf.Cos(angle), Mathf.Sin(angle));
 
-			// tell ball to set direction to new direction
-			Ball ballScript = coll.gameObject.GetComponent<Ball>();
-			ballScript.SetDirection(direction);
+				// tell ball to set direction to new direction
+				Ball ballScript = coll.gameObject.GetComponent<Ball>();
+				ballScript.SetDirection(direction);
+			}
 		}
 	}
 }
