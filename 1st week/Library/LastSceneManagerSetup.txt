@@ -1,11 +1,17 @@
 sceneSetups:
 <<<<<<< HEAD
+<<<<<<< HEAD
 - path: Assets/Scenes/scene0.unity
   isLoaded: 1
   isActive: 1
 =======
+=======
+>>>>>>> 4446c978e4b1ee518de5ebea2f70803a6f1f6a72
 - path: Assets/Scenes/SampleScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
+<<<<<<< HEAD
+>>>>>>> 4446c978e4b1ee518de5ebea2f70803a6f1f6a72
+=======
 >>>>>>> 4446c978e4b1ee518de5ebea2f70803a6f1f6a72

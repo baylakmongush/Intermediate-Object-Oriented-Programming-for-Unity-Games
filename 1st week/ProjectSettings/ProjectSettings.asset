@@ -13,7 +13,11 @@ PlayerSettings:
   accelerometerFrequency: 60
   companyName: DefaultCompany
 <<<<<<< HEAD
+<<<<<<< HEAD
   productName: 1st week
+=======
+  productName: 1th week
+>>>>>>> 4446c978e4b1ee518de5ebea2f70803a6f1f6a72
 =======
   productName: 1th week
 >>>>>>> 4446c978e4b1ee518de5ebea2f70803a6f1f6a72
@@ -48,8 +52,13 @@ PlayerSettings:
   defaultScreenWidth: 1024
   defaultScreenHeight: 768
 <<<<<<< HEAD
+<<<<<<< HEAD
   defaultScreenWidthWeb: 1280
   defaultScreenHeightWeb: 720
+=======
+  defaultScreenWidthWeb: 960
+  defaultScreenHeightWeb: 600
+>>>>>>> 4446c978e4b1ee518de5ebea2f70803a6f1f6a72
 =======
   defaultScreenWidthWeb: 960
   defaultScreenHeightWeb: 600
@@ -552,7 +561,11 @@ PlayerSettings:
   splashScreenBackgroundSourcePortrait: {fileID: 0}
   spritePackerPolicy: 
 <<<<<<< HEAD
+<<<<<<< HEAD
   webGLMemorySize: 50
+=======
+  webGLMemorySize: 16
+>>>>>>> 4446c978e4b1ee518de5ebea2f70803a6f1f6a72
 =======
   webGLMemorySize: 16
 >>>>>>> 4446c978e4b1ee518de5ebea2f70803a6f1f6a72

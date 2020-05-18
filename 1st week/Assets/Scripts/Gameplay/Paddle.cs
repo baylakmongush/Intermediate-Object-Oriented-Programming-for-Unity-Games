@@ -16,7 +16,11 @@ public class Paddle : MonoBehaviour {
 		rb = GetComponent<Rigidbody2D>();
 		boxColl = GetComponent<BoxCollider2D>();
 <<<<<<< HEAD
+<<<<<<< HEAD
 		halfWidth = boxColl.size.x / 4;
+=======
+		halfWidth = boxColl.size.x / 2;
+>>>>>>> 4446c978e4b1ee518de5ebea2f70803a6f1f6a72
 =======
 		halfWidth = boxColl.size.x / 2;
 >>>>>>> 4446c978e4b1ee518de5ebea2f70803a6f1f6a72
@@ -51,6 +55,7 @@ public class Paddle : MonoBehaviour {
 		if (coll.gameObject.CompareTag("Ball"))
 		{
 <<<<<<< HEAD
+<<<<<<< HEAD
 			bool ballTop = coll.gameObject.GetComponent<Ball>().transform.position.y > transform.position.y - 0.05f;
 			// calculate new ball direction
 			if (ballTop)
@@ -68,6 +73,8 @@ public class Paddle : MonoBehaviour {
 				ballScript.SetDirection(direction);
 			}
 =======
+=======
+>>>>>>> 4446c978e4b1ee518de5ebea2f70803a6f1f6a72
 			// calculate new ball direction
 			float ballOffsetFromPaddleCenter = transform.position.x -
 				coll.transform.position.x;
@@ -80,6 +87,9 @@ public class Paddle : MonoBehaviour {
 			// tell ball to set direction to new direction
 			Ball ballScript = coll.gameObject.GetComponent<Ball>();
 			ballScript.SetDirection(direction);
+<<<<<<< HEAD
+>>>>>>> 4446c978e4b1ee518de5ebea2f70803a6f1f6a72
+=======
 >>>>>>> 4446c978e4b1ee518de5ebea2f70803a6f1f6a72
 		}
 	}
