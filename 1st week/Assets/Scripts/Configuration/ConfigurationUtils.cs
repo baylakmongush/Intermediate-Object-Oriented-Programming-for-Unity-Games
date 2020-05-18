@@ -17,7 +17,11 @@ public static class ConfigurationUtils
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         get { return 10f; }
+=======
+        get { return 10; }
+>>>>>>> 4446c978e4b1ee518de5ebea2f70803a6f1f6a72
 =======
         get { return 10; }
 >>>>>>> 4446c978e4b1ee518de5ebea2f70803a6f1f6a72
@@ -30,11 +34,17 @@ public static class ConfigurationUtils
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         get { return 200f; }
     }
 
     public static ConfigurationData configurationData;
 
+=======
+        get { return 200; }
+    }
+
+>>>>>>> 4446c978e4b1ee518de5ebea2f70803a6f1f6a72
 =======
         get { return 200; }
     }
@@ -54,7 +64,11 @@ public static class ConfigurationUtils
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         configurationData = new ConfigurationData();
+=======
+
+>>>>>>> 4446c978e4b1ee518de5ebea2f70803a6f1f6a72
 =======
 
 >>>>>>> 4446c978e4b1ee518de5ebea2f70803a6f1f6a72

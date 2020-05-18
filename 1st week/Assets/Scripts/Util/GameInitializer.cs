@@ -16,7 +16,10 @@ public class GameInitializer : MonoBehaviour
         ScreenUtils.Initialize();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ConfigurationUtils.Initialize();
+=======
+>>>>>>> 4446c978e4b1ee518de5ebea2f70803a6f1f6a72
 =======
 >>>>>>> 4446c978e4b1ee518de5ebea2f70803a6f1f6a72
 =======

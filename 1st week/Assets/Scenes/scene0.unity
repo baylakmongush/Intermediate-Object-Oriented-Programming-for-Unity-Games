@@ -115,6 +115,7 @@ NavMeshSettings:
   m_NavMeshData: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &39214667
 Prefab:
   m_ObjectHideFlags: 0
@@ -211,6 +212,8 @@ Prefab:
 >>>>>>> 4446c978e4b1ee518de5ebea2f70803a6f1f6a72
 =======
 >>>>>>> 4446c978e4b1ee518de5ebea2f70803a6f1f6a72
+=======
+>>>>>>> 4446c978e4b1ee518de5ebea2f70803a6f1f6a72
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -223,7 +226,13 @@ GameObject:
   - component: {fileID: 519420029}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: 519420036}
+=======
+  - component: {fileID: 519420035}
+  - component: {fileID: 519420034}
+  - component: {fileID: 519420033}
+>>>>>>> 4446c978e4b1ee518de5ebea2f70803a6f1f6a72
 =======
   - component: {fileID: 519420035}
   - component: {fileID: 519420034}
@@ -259,7 +268,11 @@ EdgeCollider2D:
   m_Density: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Material: {fileID: 6200000, guid: 97969e83761fa4010a32aac7d875706d, type: 2}
+=======
+  m_Material: {fileID: 6200000, guid: 79378eaffb5e84772ad8a20f4b51e9fc, type: 2}
+>>>>>>> 4446c978e4b1ee518de5ebea2f70803a6f1f6a72
 =======
   m_Material: {fileID: 6200000, guid: 79378eaffb5e84772ad8a20f4b51e9fc, type: 2}
 >>>>>>> 4446c978e4b1ee518de5ebea2f70803a6f1f6a72
@@ -274,10 +287,15 @@ EdgeCollider2D:
   m_Points:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {x: -6.6795945, y: -4.964505}
   - {x: -6.6313996, y: 4.964505}
   - {x: 6.65953, y: 5.02685}
   - {x: 6.7143116, y: -4.9645057}
+=======
+  - {x: -6.636567, y: 5.000165}
+  - {x: 6.712324, y: 5.000166}
+>>>>>>> 4446c978e4b1ee518de5ebea2f70803a6f1f6a72
 =======
   - {x: -6.636567, y: 5.000165}
   - {x: 6.712324, y: 5.000166}
@@ -337,8 +355,13 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &519420036
 MonoBehaviour:
+=======
+--- !u!68 &519420033
+EdgeCollider2D:
+>>>>>>> 4446c978e4b1ee518de5ebea2f70803a6f1f6a72
 =======
 --- !u!68 &519420033
 EdgeCollider2D:
@@ -352,6 +375,7 @@ EdgeCollider2D:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   m_EditorHideFlags: 0
@@ -943,6 +967,8 @@ Prefab:
 =======
 =======
 >>>>>>> 4446c978e4b1ee518de5ebea2f70803a6f1f6a72
+=======
+>>>>>>> 4446c978e4b1ee518de5ebea2f70803a6f1f6a72
   m_Density: 1
   m_Material: {fileID: 6200000, guid: 79378eaffb5e84772ad8a20f4b51e9fc, type: 2}
   m_IsTrigger: 0
@@ -988,6 +1014,9 @@ EdgeCollider2D:
   - {x: 6.6855903, y: 4.9865513}
   - {x: 6.7392635, y: -5.0037084}
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 4446c978e4b1ee518de5ebea2f70803a6f1f6a72
+=======
 >>>>>>> 4446c978e4b1ee518de5ebea2f70803a6f1f6a72
 =======
 >>>>>>> 4446c978e4b1ee518de5ebea2f70803a6f1f6a72

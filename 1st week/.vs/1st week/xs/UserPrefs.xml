@@ -1,6 +1,7 @@
 ﻿<Properties StartupConfiguration="{52A6ED56-2D40-D296-7959-AC56BF62BE7D}|">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   <MonoDevelop.Ide.ItemProperties.1st_220week PreferredExecutionTarget="cedd45d3-0b36-4c35-9d52-06383dc891bb" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Configuration/ConfigurationData.cs">
     <Files>
@@ -13,6 +14,8 @@
 =======
 =======
 >>>>>>> 4446c978e4b1ee518de5ebea2f70803a6f1f6a72
+=======
+>>>>>>> 4446c978e4b1ee518de5ebea2f70803a6f1f6a72
   <MonoDevelop.Ide.ItemProperties.1st_220week PreferredExecutionTarget="8f68a64e-03fb-4b64-acce-bcf9de39a424" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Gameplay/Paddle.cs">
     <Files>
@@ -20,6 +23,9 @@
       <File FileName="Assets/Scripts/Configuration/ConfigurationUtils.cs" Line="22" Column="6" />
       <File FileName="Assets/Scripts/Gameplay/Paddle.cs" Line="53" Column="9" />
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 4446c978e4b1ee518de5ebea2f70803a6f1f6a72
+=======
 >>>>>>> 4446c978e4b1ee518de5ebea2f70803a6f1f6a72
 =======
 >>>>>>> 4446c978e4b1ee518de5ebea2f70803a6f1f6a72
