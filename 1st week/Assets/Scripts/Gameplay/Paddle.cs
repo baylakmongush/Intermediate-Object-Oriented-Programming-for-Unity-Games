@@ -9,26 +9,15 @@ public class Paddle : MonoBehaviour {
 	Vector3 position;
 	BoxCollider2D boxColl;
 	float halfWidth;
+	float halfHeight;
 	const float BounceAngleHalfRange = 60f;
 
 	// Use this for initialization
 	void Start () {
 		rb = GetComponent<Rigidbody2D>();
 		boxColl = GetComponent<BoxCollider2D>();
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 		halfWidth = boxColl.size.x / 4;
-=======
-		halfWidth = boxColl.size.x / 2;
->>>>>>> 4446c978e4b1ee518de5ebea2f70803a6f1f6a72
-=======
-		halfWidth = boxColl.size.x / 2;
->>>>>>> 4446c978e4b1ee518de5ebea2f70803a6f1f6a72
-=======
-		halfWidth = boxColl.size.x / 2;
->>>>>>> 4446c978e4b1ee518de5ebea2f70803a6f1f6a72
-		Debug.Log(halfWidth);
+		halfHeight = boxColl.size.y / 4;
 	}
 	
 	// Update is called once per frame
@@ -37,7 +26,7 @@ public class Paddle : MonoBehaviour {
         if (moveX != 0)
         {
 			position = rb.transform.position;
-			position.x += moveX * ConfigurationUtils.PaddleMoveUnitsPerSecond * Time.fixedDeltaTime;
+			position.x += moveX * ConfigurationUtils.PaddleMoveUnitsPerSecond * Time.deltaTime;
 			position.x = CalculateClampedX(position.x);
 			rb.MovePosition(position);
         }
@@ -45,8 +34,10 @@ public class Paddle : MonoBehaviour {
 
     float   CalculateClampedX(float x)
 	{
-		if (x - halfWidth < ScreenUtils.ScreenLeft || x + halfWidth > ScreenUtils.ScreenRight)
-			return transform.position.x;
+		if (x - halfWidth < ScreenUtils.ScreenLeft)
+			x = halfWidth + ScreenUtils.ScreenLeft;
+		else if (x + halfWidth > ScreenUtils.ScreenRight)
+			x = ScreenUtils.ScreenRight - halfWidth;
 		return (x);
 	}
 
@@ -58,9 +49,6 @@ public class Paddle : MonoBehaviour {
 	{
 		if (coll.gameObject.CompareTag("Ball"))
 		{
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 			bool ballTop = coll.gameObject.GetComponent<Ball>().transform.position.y > transform.position.y - 0.05f;
 			// calculate new ball direction
 			if (ballTop)
@@ -77,30 +65,6 @@ public class Paddle : MonoBehaviour {
 				Ball ballScript = coll.gameObject.GetComponent<Ball>();
 				ballScript.SetDirection(direction);
 			}
-=======
-=======
->>>>>>> 4446c978e4b1ee518de5ebea2f70803a6f1f6a72
-=======
->>>>>>> 4446c978e4b1ee518de5ebea2f70803a6f1f6a72
-			// calculate new ball direction
-			float ballOffsetFromPaddleCenter = transform.position.x -
-				coll.transform.position.x;
-			float normalizedBallOffset = ballOffsetFromPaddleCenter /
-				halfWidth;
-			float angleOffset = normalizedBallOffset * BounceAngleHalfRange;
-			float angle = Mathf.PI / 2 + angleOffset;
-			Vector2 direction = new Vector2(Mathf.Cos(angle), Mathf.Sin(angle));
-
-			// tell ball to set direction to new direction
-			Ball ballScript = coll.gameObject.GetComponent<Ball>();
-			ballScript.SetDirection(direction);
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 4446c978e4b1ee518de5ebea2f70803a6f1f6a72
-=======
->>>>>>> 4446c978e4b1ee518de5ebea2f70803a6f1f6a72
-=======
->>>>>>> 4446c978e4b1ee518de5ebea2f70803a6f1f6a72
 		}
 	}
 }

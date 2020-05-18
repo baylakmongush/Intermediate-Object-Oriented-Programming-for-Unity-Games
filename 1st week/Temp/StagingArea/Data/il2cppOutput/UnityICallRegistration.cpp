@@ -406,9 +406,9 @@ void RegisterAllStrippedInternalCalls()
 
 	//Start Registrations for type : UnityEngine.Time
 
-		//System.Single UnityEngine.Time::get_fixedDeltaTime()
-		void Register_UnityEngine_Time_get_fixedDeltaTime();
-		Register_UnityEngine_Time_get_fixedDeltaTime();
+		//System.Single UnityEngine.Time::get_deltaTime()
+		void Register_UnityEngine_Time_get_deltaTime();
+		Register_UnityEngine_Time_get_deltaTime();
 
 	//End Registrations for type : UnityEngine.Time
 

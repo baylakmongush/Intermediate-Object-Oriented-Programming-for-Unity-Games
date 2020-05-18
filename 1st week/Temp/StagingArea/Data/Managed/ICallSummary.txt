@@ -73,7 +73,7 @@ UnityEngine.Screen::get_height
 UnityEngine.Screen::get_width
 UnityEngine.ScriptableObject::Internal_CreateScriptableObject
 UnityEngine.ScriptableObject::CreateInstanceFromType
-UnityEngine.Time::get_fixedDeltaTime
+UnityEngine.Time::get_deltaTime
 UnityEngine.Transform::get_childCount
 UnityEngine.Transform::INTERNAL_get_position
 UnityEngine.Transform::GetChild

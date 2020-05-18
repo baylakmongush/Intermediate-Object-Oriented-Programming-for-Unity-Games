@@ -69,7 +69,7 @@ class BuoyancyEffector2D;
 class PlatformEffector2D; 
 class PointEffector2D; 
 class SurfaceEffector2D; 
-class FlareLayer; 
+class FlareLayer; template <> void RegisterClass<FlareLayer>();
 class GUIElement; template <> void RegisterClass<GUIElement>();
 namespace TextRenderingPrivate { class GUIText; } 
 class GUITexture; 
@@ -240,7 +240,7 @@ void RegisterAllClasses()
 {
 void RegisterBuiltinTypes();
 RegisterBuiltinTypes();
-	//Total: 57 non stripped classes
+	//Total: 58 non stripped classes
 	//0. Rigidbody2D
 	RegisterClass<Rigidbody2D>();
 	//1. Unity::Component
@@ -339,21 +339,23 @@ RegisterBuiltinTypes();
 	RegisterClass<AudioManager>();
 	//48. Physics2DSettings
 	RegisterClass<Physics2DSettings>();
-	//49. RenderSettings
+	//49. FlareLayer
+	RegisterClass<FlareLayer>();
+	//50. RenderSettings
 	RegisterClass<RenderSettings>();
-	//50. LevelGameManager
+	//51. LevelGameManager
 	RegisterClass<LevelGameManager>();
-	//51. LightmapSettings
+	//52. LightmapSettings
 	RegisterClass<LightmapSettings>();
-	//52. SpriteRenderer
+	//53. SpriteRenderer
 	RegisterClass<SpriteRenderer>();
-	//53. AudioListener
+	//54. AudioListener
 	RegisterClass<AudioListener>();
-	//54. AudioBehaviour
+	//55. AudioBehaviour
 	RegisterClass<AudioBehaviour>();
-	//55. PhysicsMaterial2D
+	//56. PhysicsMaterial2D
 	RegisterClass<PhysicsMaterial2D>();
-	//56. EdgeCollider2D
+	//57. EdgeCollider2D
 	RegisterClass<EdgeCollider2D>();
 
 }
