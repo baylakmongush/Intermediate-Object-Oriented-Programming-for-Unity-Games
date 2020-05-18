@@ -17,7 +17,11 @@ public class Paddle : MonoBehaviour {
 		boxColl = GetComponent<BoxCollider2D>();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		halfWidth = boxColl.size.x / 4;
+=======
+		halfWidth = boxColl.size.x / 2;
+>>>>>>> 4446c978e4b1ee518de5ebea2f70803a6f1f6a72
 =======
 		halfWidth = boxColl.size.x / 2;
 >>>>>>> 4446c978e4b1ee518de5ebea2f70803a6f1f6a72
@@ -56,6 +60,7 @@ public class Paddle : MonoBehaviour {
 		{
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 			bool ballTop = coll.gameObject.GetComponent<Ball>().transform.position.y > transform.position.y - 0.05f;
 			// calculate new ball direction
 			if (ballTop)
@@ -75,6 +80,8 @@ public class Paddle : MonoBehaviour {
 =======
 =======
 >>>>>>> 4446c978e4b1ee518de5ebea2f70803a6f1f6a72
+=======
+>>>>>>> 4446c978e4b1ee518de5ebea2f70803a6f1f6a72
 			// calculate new ball direction
 			float ballOffsetFromPaddleCenter = transform.position.x -
 				coll.transform.position.x;
@@ -88,6 +95,9 @@ public class Paddle : MonoBehaviour {
 			Ball ballScript = coll.gameObject.GetComponent<Ball>();
 			ballScript.SetDirection(direction);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 4446c978e4b1ee518de5ebea2f70803a6f1f6a72
+=======
 >>>>>>> 4446c978e4b1ee518de5ebea2f70803a6f1f6a72
 =======
 >>>>>>> 4446c978e4b1ee518de5ebea2f70803a6f1f6a72
