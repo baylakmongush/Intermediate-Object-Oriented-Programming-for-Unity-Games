@@ -17,6 +17,7 @@ public class HUD : MonoBehaviour {
 
     private void Start()
     {
+<<<<<<< HEAD
         textScoreGO = GameObject.FindGameObjectWithTag("HUD_Text");
         textScore = textScoreGO.GetComponent<TextMeshProUGUI>();
         textScore.text = "Score: " + HUD.score;
@@ -24,6 +25,15 @@ public class HUD : MonoBehaviour {
         textRemainingBallGO = GameObject.FindGameObjectWithTag("Ball_Left");
         textRemainingBall = textRemainingBallGO.GetComponent<TextMeshProUGUI>();
         remainingBall = ConfigurationUtils.BallLeft;
+=======
+        textScoreGO = GameObject.FindGameObjectWithTag("TextScore");
+        textScore = textScoreGO.GetComponent<TextMeshProUGUI>();
+        textScore.text = "Score: " + HUD.score;
+
+        textRemainingBallGO = GameObject.FindGameObjectWithTag("TextBallRemaining");
+        textRemainingBall = textRemainingBallGO.GetComponent<TextMeshProUGUI>();
+        remainingBall = ConfigurationUtils.BallsPerGame;
+>>>>>>> 1a040698e19c0385e398f06b89103fb91c42aeaa
         textRemainingBall.text = "Balls: " + remainingBall;
     }
 

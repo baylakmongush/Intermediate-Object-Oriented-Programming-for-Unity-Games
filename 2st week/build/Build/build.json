@@ -1,6 +1,7 @@
 {
 "companyName": "DefaultCompany",
 "productName": "1st week",
+<<<<<<< HEAD
 "productVersion": "1.0",
 "dataUrl": "build.data.unityweb",
 "wasmCodeUrl": "build.wasm.code.unityweb",
@@ -12,4 +13,15 @@
 "developmentBuild": false,
 "multithreading": false,
 "unityVersion": "2019.3.12f1"
+=======
+"dataUrl": "build.data.unityweb",
+"asmCodeUrl": "build.asm.code.unityweb",
+"asmMemoryUrl": "build.asm.memory.unityweb",
+"asmFrameworkUrl": "build.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+>>>>>>> 1a040698e19c0385e398f06b89103fb91c42aeaa
 }

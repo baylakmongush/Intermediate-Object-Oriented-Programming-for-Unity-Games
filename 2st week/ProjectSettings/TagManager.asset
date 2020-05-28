@@ -5,8 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ball
+<<<<<<< HEAD
   - HUD_Text
   - Ball_Left
+=======
+>>>>>>> 1a040698e19c0385e398f06b89103fb91c42aeaa
   layers:
   - Default
   - TransparentFX
