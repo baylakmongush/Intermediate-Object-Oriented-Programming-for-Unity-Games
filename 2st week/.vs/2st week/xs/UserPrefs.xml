@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿<Properties StartupConfiguration="{DB45C913-8158-E37C-C435-9ECCCA76E9E9}|">
   <MonoDevelop.Ide.ItemProperties.2st_220week PreferredExecutionTarget="ec7b223a-525f-46f1-8123-e4f344787f71" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Configuration/ConfigurationData.cs">
@@ -16,6 +17,8 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="27719409-8939-46c9-a536-52164b9d3bcb" />
 =======
+=======
+>>>>>>> 1a040698e19c0385e398f06b89103fb91c42aeaa
 ﻿<Properties StartupConfiguration="{73EF2CD6-4452-4572-8C10-531EAAFE7511}|">
   <MonoDevelop.Ide.ItemProperties.2st_220week PreferredExecutionTarget="ec7b223a-525f-46f1-8123-e4f344787f71" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Util/HUD.cs">
@@ -46,6 +49,9 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+<<<<<<< HEAD
+>>>>>>> 1a040698e19c0385e398f06b89103fb91c42aeaa
+=======
 >>>>>>> 1a040698e19c0385e398f06b89103fb91c42aeaa
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

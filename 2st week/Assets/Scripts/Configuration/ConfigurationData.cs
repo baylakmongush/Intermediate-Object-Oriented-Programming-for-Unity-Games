@@ -15,6 +15,7 @@ public class ConfigurationData
 
     // configuration data
 <<<<<<< HEAD
+<<<<<<< HEAD
     static float paddleMoveUnitsPerSecond = 10f;
     static float ballImpulseForce = 200f;
     static float lifeTime = 10f;
@@ -29,11 +30,16 @@ public class ConfigurationData
     static int speedupBlockProbability = 10;
     static int ballLeft = 10;
 =======
+=======
+>>>>>>> 1a040698e19c0385e398f06b89103fb91c42aeaa
     static float paddleMoveUnitsPerSecond;
     static float ballImpulseForce;
     static float lifeTime;
     static float minSpawnTime;
     static float maxSpawnTime;
+<<<<<<< HEAD
+>>>>>>> 1a040698e19c0385e398f06b89103fb91c42aeaa
+=======
 >>>>>>> 1a040698e19c0385e398f06b89103fb91c42aeaa
 
     #endregion
@@ -71,6 +77,7 @@ public class ConfigurationData
     public float MaxSpawnTime
     {
         get { return maxSpawnTime; }
+<<<<<<< HEAD
 <<<<<<< HEAD
     }
 
@@ -114,6 +121,8 @@ public class ConfigurationData
         get { return ballLeft; }
 =======
 >>>>>>> 1a040698e19c0385e398f06b89103fb91c42aeaa
+=======
+>>>>>>> 1a040698e19c0385e398f06b89103fb91c42aeaa
     }
 
     #endregion
@@ -142,6 +151,7 @@ public class ConfigurationData
             minSpawnTime = float.Parse(values[3]);
             maxSpawnTime = float.Parse(values[4]);
 <<<<<<< HEAD
+<<<<<<< HEAD
             standartBlockPoints = int.Parse(values[5]);
             bonusBlockPoints = int.Parse(values[6]);
             pickupBlockPoints = int.Parse(values[7]);
@@ -150,6 +160,8 @@ public class ConfigurationData
             speedupBlockProbability = int.Parse(values[10]);
             freezerBlockProbability = int.Parse(values[11]);
             ballLeft = int.Parse(values[12]);
+=======
+>>>>>>> 1a040698e19c0385e398f06b89103fb91c42aeaa
 =======
 >>>>>>> 1a040698e19c0385e398f06b89103fb91c42aeaa
         }

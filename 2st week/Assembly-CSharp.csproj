@@ -64,7 +64,10 @@
   </ItemGroup>
   <ItemGroup>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <Compile Include="Assets\Scripts\BonusBlock.cs" />
+=======
+>>>>>>> 1a040698e19c0385e398f06b89103fb91c42aeaa
 =======
 >>>>>>> 1a040698e19c0385e398f06b89103fb91c42aeaa
     <Compile Include="Assets\Scripts\Configuration\ConfigurationData.cs" />
@@ -74,11 +77,16 @@
     <Compile Include="Assets\Scripts\Gameplay\Block.cs" />
     <Compile Include="Assets\Scripts\Gameplay\Paddle.cs" />
 <<<<<<< HEAD
+<<<<<<< HEAD
     <Compile Include="Assets\Scripts\PickupBlock.cs" />
     <Compile Include="Assets\Scripts\StandartBlock.cs" />
     <Compile Include="Assets\Scripts\Util\GameInitializer.cs" />
     <Compile Include="Assets\Scripts\Util\HUD.cs" />
     <Compile Include="Assets\Scripts\Util\LevelBuilder.cs" />
+=======
+    <Compile Include="Assets\Scripts\Util\GameInitializer.cs" />
+    <Compile Include="Assets\Scripts\Util\HUD.cs" />
+>>>>>>> 1a040698e19c0385e398f06b89103fb91c42aeaa
 =======
     <Compile Include="Assets\Scripts\Util\GameInitializer.cs" />
     <Compile Include="Assets\Scripts\Util\HUD.cs" />

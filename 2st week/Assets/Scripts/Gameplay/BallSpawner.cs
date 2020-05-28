@@ -44,9 +44,13 @@ public class BallSpawner : MonoBehaviour {
 		{
 			retrySpawn = false;
 <<<<<<< HEAD
+<<<<<<< HEAD
 			Vector2 spawnPosition = new Vector2(Random.Range(ScreenUtils.ScreenLeft, ScreenUtils.ScreenRight),
 												Random.Range(0, ScreenUtils.ScreenTop));
 			Instantiate(prefabBall, spawnPosition, Quaternion.identity);
+=======
+			Instantiate(prefabBall);
+>>>>>>> 1a040698e19c0385e398f06b89103fb91c42aeaa
 =======
 			Instantiate(prefabBall);
 >>>>>>> 1a040698e19c0385e398f06b89103fb91c42aeaa
