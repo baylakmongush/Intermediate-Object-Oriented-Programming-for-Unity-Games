@@ -43,7 +43,9 @@ public class BallSpawner : MonoBehaviour {
 		if (Physics2D.OverlapArea(spawnLocationMin, spawnLocationMax) == null)
 		{
 			retrySpawn = false;
-			Instantiate(prefabBall);
+			Vector2 spawnPosition = new Vector2(Random.Range(ScreenUtils.ScreenLeft, ScreenUtils.ScreenRight),
+												Random.Range(0, ScreenUtils.ScreenTop));
+			Instantiate(prefabBall, spawnPosition, Quaternion.identity);
 		}
 		else
 		{

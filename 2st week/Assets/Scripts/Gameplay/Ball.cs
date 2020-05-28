@@ -42,6 +42,7 @@ public class Ball : MonoBehaviour {
 		if (transform.position.y < (ScreenUtils.ScreenBottom - 2))
 		{
 			ballSpawner.SpawnBall();
+			HUD.BallLeftScreen();
 			Destroy(gameObject);
 		}
 	}

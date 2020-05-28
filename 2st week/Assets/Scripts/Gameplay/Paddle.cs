@@ -16,8 +16,8 @@ public class Paddle : MonoBehaviour {
 	void Start () {
 		rb = GetComponent<Rigidbody2D>();
 		boxColl = GetComponent<BoxCollider2D>();
-		halfWidth = boxColl.size.x / 4;
-		halfHeight = boxColl.size.y / 4;
+		halfWidth = boxColl.size.x / 8;
+		halfHeight = boxColl.size.y / 8;
 	}
 	
 	// Update is called once per frame
