@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{52A6ED56-2D40-D296-7959-AC56BF62BE7D}|">
+  <MonoDevelop.Ide.ItemProperties.1st_220week PreferredExecutionTarget="aeca0422-4a40-43fd-aa63-7ebc92ff1983" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Gameplay/Paddle.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Gameplay/Ball.cs" Line="14" Column="14" />
+      <File FileName="Assets/Scripts/Configuration/ConfigurationUtils.cs" Line="27" Column="1" />
+      <File FileName="Assets/Scripts/Gameplay/Paddle.cs" Line="20" Column="34" />
+      <File FileName="Assets/Scripts/Gameplay/Block.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Configuration/ConfigurationData.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Util/GameInitializer.cs" Line="17" Column="41" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
