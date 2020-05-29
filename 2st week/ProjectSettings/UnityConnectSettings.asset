@@ -4,7 +4,6 @@
 UnityConnectSettings:
   m_ObjectHideFlags: 0
 <<<<<<< HEAD
-<<<<<<< HEAD
   serializedVersion: 1
   m_Enabled: 0
   m_TestMode: 0
@@ -17,8 +16,6 @@ UnityConnectSettings:
     m_Enabled: 0
     m_LogBufferSize: 10
 =======
-=======
->>>>>>> 1a040698e19c0385e398f06b89103fb91c42aeaa
   m_Enabled: 1
   m_TestMode: 0
   m_TestEventUrl: 
@@ -28,9 +25,6 @@ UnityConnectSettings:
     m_EventUrl: https://perf-events.cloud.unity3d.com
     m_NativeEventUrl: https://perf-events.cloud.unity3d.com/symbolicate
     m_Enabled: 0
-<<<<<<< HEAD
->>>>>>> 1a040698e19c0385e398f06b89103fb91c42aeaa
-=======
 >>>>>>> 1a040698e19c0385e398f06b89103fb91c42aeaa
     m_CaptureEditorExceptions: 1
   UnityPurchasingSettings:
@@ -39,19 +33,13 @@ UnityConnectSettings:
   UnityAnalyticsSettings:
     m_Enabled: 0
 <<<<<<< HEAD
-<<<<<<< HEAD
     m_TestMode: 0
     m_InitializeOnStartup: 1
 =======
-=======
->>>>>>> 1a040698e19c0385e398f06b89103fb91c42aeaa
     m_InitializeOnStartup: 1
     m_TestMode: 0
     m_TestEventUrl: 
     m_TestConfigUrl: 
-<<<<<<< HEAD
->>>>>>> 1a040698e19c0385e398f06b89103fb91c42aeaa
-=======
 >>>>>>> 1a040698e19c0385e398f06b89103fb91c42aeaa
   UnityAdsSettings:
     m_Enabled: 0

@@ -43,10 +43,7 @@ public class Ball : MonoBehaviour {
 		{
 			ballSpawner.SpawnBall();
 <<<<<<< HEAD
-<<<<<<< HEAD
 			HUD.BallLeftScreen();
-=======
->>>>>>> 1a040698e19c0385e398f06b89103fb91c42aeaa
 =======
 >>>>>>> 1a040698e19c0385e398f06b89103fb91c42aeaa
 			Destroy(gameObject);

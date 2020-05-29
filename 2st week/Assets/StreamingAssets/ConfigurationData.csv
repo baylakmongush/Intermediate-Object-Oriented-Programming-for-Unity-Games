@@ -1,11 +1,6 @@
 <<<<<<< HEAD
-<<<<<<< HEAD
 PaddleMoveUnitsPerSecond,BallImpulseForce,lifeTime,MinSpawnTime,MaxSpawnTime,StandartBlockPoints,BonusBlockPoints,PickupBlocksPoints,StandartBlockProbability,BonusBlockProbability,SpeedupBlocksProbability,FreezerBlocksProbability,BallLeft
 10,200,10,5,10,10,15,20,50,25,10,10,10
-=======
-PaddleMoveUnitsPerSecond,BallImpulseForce,lifeTime,MinSpawnTime,MaxSpawnTime
-10,200,10,5,10
->>>>>>> 1a040698e19c0385e398f06b89103fb91c42aeaa
 =======
 PaddleMoveUnitsPerSecond,BallImpulseForce,lifeTime,MinSpawnTime,MaxSpawnTime
 10,200,10,5,10
