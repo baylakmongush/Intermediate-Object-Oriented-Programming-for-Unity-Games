@@ -14,7 +14,6 @@ public class ConfigurationData
     const string ConfigurationDataFileName = "ConfigurationData.csv";
 
     // configuration data
-<<<<<<< HEAD
     static float paddleMoveUnitsPerSecond = 10f;
     static float ballImpulseForce = 200f;
     static float lifeTime = 10f;
@@ -28,13 +27,6 @@ public class ConfigurationData
     static int freezerBlockProbability = 10;
     static int speedupBlockProbability = 10;
     static int ballLeft = 10;
-=======
-    static float paddleMoveUnitsPerSecond;
-    static float ballImpulseForce;
-    static float lifeTime;
-    static float minSpawnTime;
-    static float maxSpawnTime;
->>>>>>> 1a040698e19c0385e398f06b89103fb91c42aeaa
 
     #endregion
 
@@ -71,7 +63,6 @@ public class ConfigurationData
     public float MaxSpawnTime
     {
         get { return maxSpawnTime; }
-<<<<<<< HEAD
     }
 
     public int StandartBlockPoints
@@ -112,8 +103,6 @@ public class ConfigurationData
     public int BallLeft
     {
         get { return ballLeft; }
-=======
->>>>>>> 1a040698e19c0385e398f06b89103fb91c42aeaa
     }
 
     #endregion
@@ -141,7 +130,6 @@ public class ConfigurationData
             lifeTime = float.Parse(values[2]);
             minSpawnTime = float.Parse(values[3]);
             maxSpawnTime = float.Parse(values[4]);
-<<<<<<< HEAD
             standartBlockPoints = int.Parse(values[5]);
             bonusBlockPoints = int.Parse(values[6]);
             pickupBlockPoints = int.Parse(values[7]);
@@ -150,8 +138,6 @@ public class ConfigurationData
             speedupBlockProbability = int.Parse(values[10]);
             freezerBlockProbability = int.Parse(values[11]);
             ballLeft = int.Parse(values[12]);
-=======
->>>>>>> 1a040698e19c0385e398f06b89103fb91c42aeaa
         }
         catch (Exception e)
         {

@@ -2,7 +2,4 @@ sceneSetups:
 - path: Assets/Scenes/scene1.unity
   isLoaded: 1
   isActive: 1
-<<<<<<< HEAD
   isSubScene: 0
-=======
->>>>>>> 1a040698e19c0385e398f06b89103fb91c42aeaa

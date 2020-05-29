@@ -35,7 +35,6 @@ public static class ConfigurationUtils
     {
         get { return configurationData.MaxSpawnTime; }
     }
-<<<<<<< HEAD
 
 
     public static int StandartBlockPoints
@@ -78,10 +77,6 @@ public static class ConfigurationUtils
     }
     #endregion
 
-=======
-    #endregion
-    
->>>>>>> 1a040698e19c0385e398f06b89103fb91c42aeaa
     /// <summary>
     /// Initializes the configuration utils
     /// </summary>
