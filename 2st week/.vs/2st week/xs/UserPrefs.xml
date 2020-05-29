@@ -9,7 +9,7 @@
       <File FileName="Assets/Scripts/Gameplay/Block.cs" />
       <File FileName="Assets/Scripts/Util/HUD.cs" />
       <File FileName="Assets/Scripts/Configuration/ConfigurationData.cs" />
-      <File FileName="Assets/Scripts/Gameplay/Ball.cs" Line="20" Column="19" />
+      <File FileName="Assets/Scripts/Gameplay/Ball.cs" Line="28" Column="30" />
       <File FileName="Assets/Scripts/Gameplay/BallSpawner.cs" Line="46" Column="28" />
     </Files>
     <Pads>
